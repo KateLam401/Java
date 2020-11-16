@@ -1,0 +1,6 @@
+Susan 32 2345 director 200000
+Kelsey 45 3456 director 250000
+Jake 27 4567 assistant 60000
+Pederica 53 5678 CEO 500000
+Yapsiong 36 6789 manager 100000
+Ajit 22 7788 manager 80000

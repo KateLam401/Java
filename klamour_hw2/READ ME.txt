@@ -1,0 +1,9 @@
+I was not able to get part3 to work right. My if statement won’t trigger true when they should. I connected with a tutor on smarthinking who even told me my code looked right and couldn’t figure it out.
+
+I added a test variable in line 52 so that in debug mode, I could see the value. For example, the value would be “(” but then it wouldn’t trigger true when it got to line 54, if (exp[n].toString() == "(" ). 
+
+This happened for all the characters in the string; “5” == “5” wouldn’t trigger true, “+” == “+” wouldn’t trigger true, and so on
+
+I didn’t want to lose points for my code not executing so I have them printing “result”; I commented out lines 23,27 and 41. If you wanted to try to see what I’m seeing, those lines would need to be un-commented and rows 28-40 would need to be indented one more time.
+
+I feel like my java improved a lot after our 1:1 meeting but this has really thrown me for a loop. I would set up more time but I know you are traveling starting Sunday so I’m just going to have to turn it in as is, it is my best attempt.
