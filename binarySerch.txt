@@ -1,0 +1,42 @@
+
+// search method for a binary search tree
+// input argument p is the root of the subtree that is searched
+// input argument e is an element of the node that is searched for
+// returns true if a node with e is in the tree, false otherwise
+// "comp" that is used in the code is a Comparator object
+// it is declared in the MyBST class and initialized by its constructor
+// any method within MyBST can use "comp" to compare objects of type E (generic type)
+
+
+	public boolean search(Position<E> p, E e){
+		
+		Node<E> node = validate(p);
+
+		while (node != null) {
+			if (comp.compare(node.getElement(), e) == 0) { 			
+				return true; 
+			}
+			else if (comp.compare(node.getElement(), e) > 0) { 
+				node = node.getLeft();
+			}
+			else {
+				node = node.getRight();
+			}
+		}
+		return false;
+	}
+
+
+// node p becomes a parent of node n
+// node n becomes the left child of p
+
+	n.setParent(p);
+	p.setLeft(n);
+
+// node p becomes a parent of node n
+// node n becomes the right child of p
+
+	n.setParent(p);
+	p.setRight(n);
+	
+
